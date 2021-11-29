@@ -235,8 +235,18 @@ img {
   padding: 1rem;
   background-color: var(--text-color);
   color: var(--white-color);
+  border: 3px solid transparent;
+  transition: all 0.5s ease-out;
+  transition: all 0.9s ease-out;
 }
-
+.home__button:hover {
+     border: 1px solid #ffffff;
+    text-decoration-color: rgb(255, 255, 255);
+    text-underline-offset: 0.4em;
+    transition: all 0.5s ease-out;
+    background-color: transparent;
+    color: black;
+}
 .home__button-icon {
   padding-left: 4.25rem;
 }
