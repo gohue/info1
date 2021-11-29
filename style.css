@@ -9,7 +9,9 @@
   --text-color: #000;
   --white-color: #FFF;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 /*Fuente y tipografia*/
 :root {
   --body-font:'Raleway', sans-serif;
@@ -114,9 +116,6 @@ img {
     font-weight: 900;
     -webkit-transition: .5s;
     transition: .5s;
-    body {
- /* overflow: hidden;*/
-}
   }
 }
 
@@ -300,9 +299,6 @@ img {
     padding-top: 18rem;
     padding-right: 8rem;
   }
-  body {
- /* overflow: hidden;*/
-}
 }
 
 @media screen and (min-width: 1200px) {
@@ -310,9 +306,6 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-  body {
- /* overflow: hidden;*/
-}
 }
 h1,
 h2{
