@@ -240,9 +240,7 @@ img {
   transition: all 0.9s ease-out;
 }
 .home__button:hover {
-     border: 1px solid black;
-    text-decoration-color: rgb(255, 255, 255);
-    text-underline-offset: 0.4em;
+    border: 1px solid black;
     transition: all 0.5s ease-out;
     background-color: transparent;
     color: black;
