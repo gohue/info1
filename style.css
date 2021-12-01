@@ -23,6 +23,10 @@ body {
 html {
     scroll-behavior: smooth;
 }
+::selection{
+    background: #fff;
+    color: black;
+}
 /*Fuente y tipografia*/
 :root {
   --body-font:'Raleway', sans-serif;
